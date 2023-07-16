@@ -204,7 +204,7 @@
 					<div class="feature-icon-wrapper">
 						<Tooltip color="white" />
 					</div>
-					Guided tours
+					Guided / Musical tours
 				</dt>
 				<dd class="mt-2 text-base leading-7 text-gray-600">
 					Showcase your idea / work with an interactive tour that takes you through different stops
@@ -217,10 +217,13 @@
 					</div>
 					Walking simulators
 				</dt>
-				<dd class="mt-2 text-base leading-7 text-gray-600">More relaxed</dd>
+				<dd class="mt-2 text-base leading-7 text-gray-600">
+					Give users the ability to roam freely through different worlds, connecting with your brand
+					on a new level
+				</dd>
 			</div>
 		</dl>
-		<p class="mt-12 text-md md:text-lg text-gray-500 max-w-lg text-center mx-auto">
+		<p class="mt-16 text-md md:text-lg text-gray-500 max-w-lg text-center mx-auto">
 			Note: Our projects normally involve more than 1 of the features listed below. We've developed
 			tools that help us integrate these easily.
 		</p>

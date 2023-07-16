@@ -2,15 +2,6 @@
 	import '../app.css';
 </script>
 
-<div class="wrapper items-start md:items-center">
+<div class="z-0 relative flex flex-col items-center py-24 px-4 md:px-24 w-screen overflow-x-hidden">
 	<slot />
 </div>
-
-<style lang="postcss">
-	.wrapper {
-		@apply mt-16 md:mt-32 mb-4 mx-auto p-4 max-w-5xl;
-		/* display: flex; */
-		/* flex-direction: column; */
-		min-height: 100vh;
-	}
-</style>

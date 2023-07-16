@@ -1,15 +1,6 @@
 <script lang="ts">
 	import CTA from '$components/Cta.svelte';
-	import {
-		CurrencyBitcoin,
-		BrandGithub,
-		CircleX,
-		Music,
-		DeviceGamepad,
-		Old,
-		DeviceGamepad2,
-		Tooltip
-	} from 'tabler-icons-svelte';
+	import { DeviceGamepad2, Music, Old, Tooltip } from 'tabler-icons-svelte';
 
 	const clients = [
 		{

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { AlertTriangle } from 'tabler-icons-svelte';
 	import '../app.css';
 </script>
 

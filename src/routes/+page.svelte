@@ -214,9 +214,9 @@
 				</dd>
 			</div>
 		</dl>
-		<p class="mt-16 text-md md:text-lg text-gray-500 max-w-lg text-center mx-auto">
+		<p class="mt-16 text-md md:text-lg text-gray-500 max-w-xl text-center mx-auto">
 			Note: Our projects normally involve more than 1 of the features listed below. We've developed
-			tools that help us integrate these easily.
+			tools that help us integrate these easily
 		</p>
 		<CTA />
 	</div>

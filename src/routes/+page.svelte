@@ -101,7 +101,7 @@
 </script>
 
 <svelte:head>
-	<title>KNGFSHR — The dev agency of the metaverse</title>
+	<title>KNGFSHR — The dev agency of the future</title>
 </svelte:head>
 
 <!-- Hero backgrounds -->
@@ -113,10 +113,10 @@
 	<div class="max-w-3xl">
 		<div class="text-center">
 			<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl">
-				The dev agency of the metaverse
+				The dev agency of the future
 			</h1>
 			<p class="mt-10 md:mt-20 text-md md:text-2xl leading-8">
-				We create 3D and XR experiences that run on any device or web browser
+				We create products and 3D mixed reality experiences that run anywhere
 			</p>
 			<CTA />
 		</div>
@@ -151,8 +151,8 @@
 			building web products. This gave us a wide range of skills we use on a daily basis
 		</p>
 		<p class="paragraph">
-			With the rise of the metaverse we saw a great opportunity — so we acted. Since then, we've
-			been building memorable experiences that support online multiplayer, live music streaming,
+			With the rise of the future we saw a great opportunity — so we acted. Since then, we've been
+			building memorable experiences that support online multiplayer, live music streaming,
 			real-time voice chat, and the most important part: interactivity
 		</p>
 		<CTA />
@@ -315,6 +315,6 @@
 	}
 
 	.feature-icon-wrapper {
-		@apply absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600;
+		@apply absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-600;
 	}
 </style>

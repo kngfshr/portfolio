@@ -303,7 +303,7 @@
 	}
 
 	.grid-showcase {
-		@apply mx-auto mt-16 mb-16 grid max-w-lg grid-cols-1 md:grid-cols-3 items-center md:gap-x-6 gap-y-14 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none;
+		@apply mx-auto mt-16 mb-16 grid max-w-lg grid-cols-1 md:grid-cols-2 items-center md:gap-x-6 gap-y-14 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none;
 	}
 
 	.grid-item {

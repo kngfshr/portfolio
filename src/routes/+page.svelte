@@ -12,12 +12,12 @@
 			name: 'Oddvision',
 			website: 'https://oddvision.io',
 			imageUrl: 'client-oddvision.png'
-		},
-		{
-			name: 'Universal Music Group',
-			website: 'https://www.universalmusic.com/',
-			imageUrl: 'client-umg.png'
 		}
+		// {
+		// 	name: 'Universal Music Group',
+		// 	website: 'https://www.universalmusic.com/',
+		// 	imageUrl: 'client-umg.png'
+		// }
 	];
 
 	// const projects = [

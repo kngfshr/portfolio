@@ -126,7 +126,7 @@
 <section id="partners">
 	<h2 class="subtitle">We work with the best</h2>
 	<h3>Our partnerships enable awesome work</h3>
-	<div class="grid-showcase">
+	<div class="grid-showcase-clients">
 		{#each clients as c}
 			<a href={c.website} target="_blank" rel="noreferrer noopener" class="grid-item">
 				<img src={c.imageUrl} alt={c.name} class="mx-auto object-cover h-14 md:h-20" />
@@ -231,7 +231,7 @@
 			of our experiences run on web browsers so we leverage the power of today's computers
 		</p>
 	</div>
-	<div class="grid-showcase">
+	<div class="grid-showcase-tech">
 		{#each tools as t}
 			<a href={t.website} target="_blank" rel="noreferrer noopener" class="grid-item">
 				<img src={t.imageUrl} alt={t.name} class="mx-auto object-cover h-12 md:h-16" />
@@ -302,8 +302,12 @@
 		@apply mt-10 md:mt-6 leading-7 md:text-xl md:leading-[2.5rem];
 	}
 
-	.grid-showcase {
+	.grid-showcase-clients {
 		@apply mx-auto mt-16 mb-16 grid max-w-lg grid-cols-1 md:grid-cols-2 items-center md:gap-x-6 gap-y-14 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none;
+	}
+
+	.grid-showcase-tech {
+		@apply mx-auto mt-16 mb-16 grid max-w-lg grid-cols-1 md:grid-cols-3 items-center md:gap-x-6 gap-y-14 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none;
 	}
 
 	.grid-item {

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import CTA from '$components/Cta.svelte';
 	import { DeviceGamepad2, Music, Old, Tooltip } from 'tabler-icons-svelte';
+	import Section from '../lib/components/Section.svelte';
 
 	const clients = [
 		{
@@ -109,7 +110,7 @@
 <div class="h-screen w-screen absolute top-0 z-[-2] hero-gradient-primary" />
 <div class="h-screen w-screen absolute top-0 z-[-3] hero-grid-pattern" />
 
-<section id="hero" class="">
+<Section id="hero">
 	<div class="max-w-3xl">
 		<div class="text-center">
 			<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl">
@@ -121,9 +122,9 @@
 			<CTA />
 		</div>
 	</div>
-</section>
+</Section>
 
-<section id="partners">
+<Section id="partners">
 	<h2 class="subtitle">We work with the best</h2>
 	<h3>Our partnerships enable awesome work</h3>
 	<div class="grid-showcase-clients">
@@ -133,9 +134,9 @@
 			</a>
 		{/each}
 	</div>
-</section>
+</Section>
 
-<section id="team">
+<Section id="team">
 	<div class="max-w-4xl">
 		<h2 class="subtitle">A team of experts</h2>
 		<h3>Who is KNGFSHR?</h3>
@@ -157,9 +158,9 @@
 		</p>
 		<CTA />
 	</div>
-</section>
+</Section>
 
-<section id="services">
+<Section id="services">
 	<div class="max-w-3xl">
 		<h2 class="subtitle">We know our craft</h2>
 		<h3>Services we provide</h3>
@@ -220,9 +221,9 @@
 		</p>
 		<CTA />
 	</div>
-</section>
+</Section>
 
-<section id="tech">
+<Section id="tech">
 	<h2 class="subtitle">Great tools — fast delivery times</h2>
 	<h3>We use cutting edge technology</h3>
 	<div class="max-w-4xl">
@@ -239,7 +240,7 @@
 		{/each}
 	</div>
 	<CTA />
-</section>
+</Section>
 
 <!-- <section id="testimonials">
 	<h2>Our work speaks for itself</h2>
@@ -262,10 +263,6 @@
 </footer>
 
 <style lang="postcss">
-	section {
-		@apply py-16 sm:py-20 lg:py-24 text-center mx-auto;
-	}
-
 	footer {
 		@apply mt-16;
 	}
